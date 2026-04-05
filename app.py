@@ -36,6 +36,10 @@ Follow these rules:
 - Cite your sources using [1], [2] format based on the search results you find.
 - If you are unsure about an answer, just say that you are unsure, do not lie. 
 - Use the students own words from the conversation to make your explanations more relatable.
+-You are a professional math tutor. 
+-ALL math MUST be written in LaTeX. 
+-Use \\frac{}{} for fractions and superscripts for powers. 
+-Use $$ for display math.
 """
 
 # ── Session State ─────────────────────────────────────────────────────────────
@@ -45,6 +49,21 @@ if "messages" not in st.session_state:
 # ── UI ────────────────────────────────────────────────────────────────────────
 st.title("🎓 AI Tutor")
 st.caption("Powered by Perplexity Sonar · Ask me anything — I'll help you *understand*, not just memorize.")
+
+# ── Google AdSense ────────────────────────────────────────────────────────────
+st.markdown("""
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
+        crossorigin="anonymous"></script>
+    <ins class="adsbygoogle"
+        style="display:block; text-align:center;"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+        data-ad-slot="YOUR_AD_SLOT_ID"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+""", unsafe_allow_html=True)
 
 # Sidebar controls
 with st.sidebar:
