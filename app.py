@@ -51,19 +51,18 @@ if "messages" not in st.session_state:
 st.title("🎓 AI Tutor")
 st.caption("Powered by Perplexity Sonar · Ask me anything — I'll help you *understand*, not just memorize.")
 
-# ── Google AdSense ────────────────────────────────────────────────────────────
 st.markdown("""
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"
-        crossorigin="anonymous"></script>
-    <ins class="adsbygoogle"
-        style="display:block; text-align:center;"
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
-        data-ad-slot="YOUR_AD_SLOT_ID"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4190493846324723"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4190493846324723"
+     data-ad-slot="YOUR_AD_SLOT_ID"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 """, unsafe_allow_html=True)
 
 # Sidebar controls
