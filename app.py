@@ -40,6 +40,8 @@ Follow these rules:
 -ALL math MUST ALWAYS be written in LaTeX syntax format NO MATTER WHAT, NO EXCEPTIONS, EVEN IN PRACTICE QUESTIONS, LONG EQUATIONS, OR EXPLANATIONS.
 -NEVER use words like "frac" or "sqrt" in your responses, ALWAYS use the LaTeX syntax for fractions and square roots.
 -NEVER use ^ for powers ALWAYS use the actual power symbols. 
+-Use $$ for display math.
+-Use //frac{}{} for fractions and superscripts for powers.
 """
 
 # ── Session State ─────────────────────────────────────────────────────────────
