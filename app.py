@@ -51,19 +51,23 @@ if "messages" not in st.session_state:
 st.title("🎓 AI Tutor")
 st.caption("Powered by Perplexity Sonar · Ask me anything — I'll help you *understand*, not just memorize.")
 
-st.markdown("""
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4190493846324723"
+import streamlit.components.v1 as components
+
+# Replace YOUR_AD_SLOT_ID with the ad unit ID you create in AdSense
+adsense_code = """<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4190493846324723"
      crossorigin="anonymous"></script>
 <ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
+     style="display:block"
      data-ad-client="ca-pub-4190493846324723"
-     data-ad-slot="YOUR_AD_SLOT_ID"></ins>
+     data-ad-slot="YOUR_AD_SLOT_ID"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-""", unsafe_allow_html=True)
+"""
+components.html(adsense_code, height=200)
+
 
 # Sidebar controls
 with st.sidebar:
