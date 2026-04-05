@@ -38,8 +38,8 @@ Follow these rules:
 - Use the students own words from the conversation to make your explanations more relatable.
 -You are a professional math tutor. 
 -ALL math MUST ALWAYS be written in LaTeX syntax format NO MATTER WHAT, NO EXCEPTIONS, EVEN IN PRACTICE QUESTIONS, LONG EQUATIONS, OR EXPLANATIONS.
--Use \\frac{}{} for fractions and superscripts for powers. 
--Use $$ for display math.
+-NEVER use words like "frac" or "sqrt" in your responses, ALWAYS use the LaTeX syntax for fractions and square roots.
+-NEVER use ^ for powers ALWAYS use the actual power symbols. 
 """
 
 # ── Session State ─────────────────────────────────────────────────────────────
