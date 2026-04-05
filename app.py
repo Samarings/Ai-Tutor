@@ -41,7 +41,7 @@ Follow these rules:
 -Use $$ for display math.
 -Use \\frac{}{} for fractions and \\superscript{} for powers.
 -Do not EVER use formatting other than laTeX, it gets confusing for the students according to surveys. 
-"""
+""""
 
 # ── Session State ─────────────────────────────────────────────────────────────
 if "messages" not in st.session_state:
