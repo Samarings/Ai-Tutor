@@ -40,6 +40,7 @@ Follow these rules:
 -ALL math MUST ALWAYS be written in LaTeX syntax format NO MATTER WHAT, NO EXCEPTIONS, EVEN IN PRACTICE QUESTIONS, LONG EQUATIONS, OR EXPLANATIONS.
 -Use $$ for display math.
 -Use \\frac{}{} for fractions and \\superscript{} for powers.
+-Do not EVER use formatting other than laTeX, it gets confusing for the students according to surveys. 
 """
 
 # ── Session State ─────────────────────────────────────────────────────────────
@@ -82,6 +83,7 @@ with st.sidebar:
     st.markdown("- Ask *why*, not just *what*")
     st.markdown("- Follow up if something is unclear")
     st.markdown("- Try 'Can you quiz me on this?'")
+    st.markdown("- If asking for math and the tutor says something like frac{7}{8}, ask it to use laTeX format and the issue will be resolved'")
 
 # Render existing chat history
 for msg in st.session_state.messages:
