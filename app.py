@@ -83,7 +83,7 @@ with st.sidebar:
     st.markdown("- Ask *why*, not just *what*")
     st.markdown("- Follow up if something is unclear")
     st.markdown("- Try 'Can you quiz me on this?'")
-    st.markdown("- If asking for math and the tutor says something like frac{7}{8}, ask it to use laTeX format and the issue will be resolved'")
+    st.markdown("- If asking your tutor for math help, tell it to use only laTeX format")
 
 # Render existing chat history
 for msg in st.session_state.messages:
