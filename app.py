@@ -14,10 +14,13 @@ st.markdown("""
 .stSidebar {
     background-color: #030617 !important;
 }
+.stAppHeader {
+    background-color: #07273e !important;
+}
 h1, h2, h3, p, div {
     color: #ffffff !important;
 }
-.stChatInput {
+.stChatInput, .stChatInputContainer, .stBottom {
     background-color: #030617 !important;
 }
 .stChatInput input {
