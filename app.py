@@ -11,6 +11,19 @@ st.markdown("""
 .stApp {
     background: linear-gradient(to bottom, #07273e, #030617);
 }
+.stSidebar {
+    background-color: #030617 !important;
+}
+h1, h2, h3, p, div {
+    color: #ffffff !important;
+}
+.stChatInput {
+    background-color: #030617 !important;
+}
+.stChatInput input {
+    background-color: #030617 !important;
+    color: #ffffff !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -57,8 +70,12 @@ if "messages" not in st.session_state:
     st.session_state.messages = []  # list of {"role": ..., "content": ...}
 
 # ── UI ────────────────────────────────────────────────────────────────────────
-st.title("🎓 AI Tutor")
-st.caption("Powered by Perplexity Sonar · Ask me anything — I'll help you *understand*, not just memorize.")
+st.markdown("""
+<div style="background-color: #07273e; color: white; padding: 20px; text-align: center;">
+<h1>🎓 AI Tutor</h1>
+<p>Powered by Perplexity Sonar · Ask me anything — I'll help you *understand*, not just memorize.</p>
+</div>
+""", unsafe_allow_html=True)
 
 import streamlit.components.v1 as components
 
