@@ -21,10 +21,13 @@ h1, h2, h3, p, div {
     color: #ffffff !important;
 }
 .stChatInput, .stChatInputContainer, .stBottom, .stTextInput {
-    background-color: #05162a !important;
+    background-color: #07273e !important;
 }
 .stChatInput input, .stTextInput input {
-    background-color: #05162a !important;
+    background-color: #07273e !important;
+    color: #ffffff !important;
+}
+.stChatInput input::placeholder, .stTextInput input::placeholder {
     color: #ffffff !important;
 }
 </style>
