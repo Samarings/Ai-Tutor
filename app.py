@@ -5,6 +5,15 @@ from dotenv import load_dotenv
 
 load_dotenv()  # reads .env file automatically
 
+# Custom CSS for gradient background
+st.markdown("""
+<style>
+.stApp {
+    background: linear-gradient(to bottom, #07273e, #030617);
+}
+</style>
+""", unsafe_allow_html=True)
+
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="AI Tutor",
