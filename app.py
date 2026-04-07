@@ -20,10 +20,10 @@ st.markdown("""
 h1, h2, h3, p, div {
     color: #ffffff !important;
 }
-.stChatInput, .stChatInputContainer, .stBottom {
+.stChatInput, .stChatInputContainer, .stBottom, .stTextInput {
     background-color: #030617 !important;
 }
-.stChatInput input {
+.stChatInput input, .stTextInput input {
     background-color: #030617 !important;
     color: #ffffff !important;
 }
